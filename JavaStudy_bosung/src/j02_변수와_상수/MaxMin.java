@@ -4,8 +4,10 @@ public class MaxMin {
 
 	public static void main(String[] args) {
 		
-		final int MAX_NUMBER; // 상수가 둘 이상의 단어가 들어간 변수명이면  _로 구분한다 (상수는 대문자로 표기)
-		MAX_NUMBER = 100;
+//		final int MAX_NUMBER = 100; 선언과 초기화
+		
+		final int MAX_NUMBER; // MAX값 선언     // 상수가 둘 이상의 단어가 합쳐진 변수명이면  _로 구분한다 (상수는 대문자로 표기)
+		MAX_NUMBER = 100;	  // MAX값 초기화
 		final int MIN_NUMBER;
 		MIN_NUMBER = 0;
 		
