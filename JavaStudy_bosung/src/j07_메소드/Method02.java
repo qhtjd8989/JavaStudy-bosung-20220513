@@ -11,7 +11,7 @@ public class Method02 {
 		System.out.println("test1 메소드 실행");
 	}
 	
-	//매개변수는 없으면서 반환도 없는 메소드
+	//매개변수는 있고 반환이 없는 메소드
 	public static void test2(int age, int year) { // 괄호안에 있는 것을 매개변수라 함
 		System.out.println("나이: " + age);
 		System.out.println("출생년도: " + year);

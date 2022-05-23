@@ -4,7 +4,7 @@ package j07_메소드;
 
 import java.util.Scanner;
 
-public class Method04 {
+public class Menu {
 	
 	public static void menu() {
 
