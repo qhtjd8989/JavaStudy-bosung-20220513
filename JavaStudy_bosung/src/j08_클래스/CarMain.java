@@ -3,7 +3,7 @@ package j08_클래스;
 public class CarMain {
 
 	public static void main(String[] args) {
-		Car car1 = new Car();
+		Car car1 = new Car(); // 생성자 : 반환자료형이 생략, 클래스명과 이름이 똑같다
 		
 		car1.company = "KIA";
 		car1.model = "K7";
