@@ -32,7 +32,7 @@ public class UserManagementController {
 	
 	private int findEmptyInUsers() {
 		for(int i = 0; i < users.length; i++) {
-			if(users[i] == null) {
+			if(users[i] == null) { // 배열에 빈곳이 있는지 확인
 				return i;
 			}
 		}
