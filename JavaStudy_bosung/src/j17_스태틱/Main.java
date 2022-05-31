@@ -29,6 +29,7 @@ public class Main {
 //		st3.staticMethod();
 		
 		//스태틱은 생성 없이도 사용할 수 있다.
+		//스태틱에서는 일반 변수를 쓸 수 없다.
 		StaticTest.count = 100;
 		
 		StaticTest.staticMethod();
