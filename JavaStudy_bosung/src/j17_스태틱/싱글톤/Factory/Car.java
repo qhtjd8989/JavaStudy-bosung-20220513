@@ -1,6 +1,6 @@
 package j17_스태틱.싱글톤.Factory;
 
-public class Car { //ntt 클래스 : 정보를 담는 클래스
+public class Car { //entity 클래스 : 정보를 담는 클래스
 	private int serialNumber;
 	private String company;
 	private String model;
